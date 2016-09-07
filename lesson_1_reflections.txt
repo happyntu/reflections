@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    當新的更動讓系統不能正常執行，就可以藉由比對更動前後的程式碼來找出有問題的更動部份
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    可以看到系統發展的整體過程，可以理解出最原始的構想，初步的功能，再來看出後續的功能
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    pros: 
+	1. 手動commit可以自己界定更動的主題，比較完整
+	2. 手動commit的次數比自動commit要少
+	
+	cons:
+	1. 需自己commit
+	2. 可能會延誤commit，跟其他的更動的主題混在一起
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    有些更動與	多的檔案有關，所以需要一起commit
+
+How can you use the commands git log and git diff to view the history of files?
+
+    用git log找更動的主題，之後再用git diff來比對與之前commit的差異
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    如果出錯，嚴重時可以回覆到之前的版本，不嚴重時，可以比對更動的差異
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    程式的開發
